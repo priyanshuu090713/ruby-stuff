@@ -7,7 +7,9 @@ end
 x= input_request
 
 if x == "help" || x =="h"
-    File.open("README.txt","r")
-    xi = File.read("README.txt")
-    puts xi
-
+    File.open("README.txt","r") do |file|
+        puts file.read
+    end
+else
+    puts "invalid input"
+end

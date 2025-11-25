@@ -11,5 +11,5 @@ if x == "help" || x =="H"
         puts file.read
     end
 else
-    puts "invalid input"
+    puts "what type of hash do you want: " ; m = gets.chomp
 end

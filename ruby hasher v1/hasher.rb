@@ -6,7 +6,7 @@ end
 
 x= input_request
 
-if x == "help" || x =="h"
+if x == "help" || x =="H"
     File.open("README.txt","r") do |file|
         puts file.read
     end

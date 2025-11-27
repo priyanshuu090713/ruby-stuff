@@ -66,6 +66,6 @@ viii. Game Character Stats
 
 all hashes are stored in a hasval.txt file . 
 visit my github reops
-1.
+1. 
 2.
 3. 
